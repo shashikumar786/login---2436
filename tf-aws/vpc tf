@@ -1,9 +1,9 @@
 # vpc
-resource "aws_vpc""lms"{
+resource "aws_vpc" "lms" {
     cidr block="10.0.00/16"
     instance_tenancy="default"
 
     tags = {
-      name="lms'
+      name= "lms'
     }
 }
